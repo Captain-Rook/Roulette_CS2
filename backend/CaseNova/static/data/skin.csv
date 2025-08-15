@@ -1,0 +1,39 @@
+id,weapon,name,price,pattern,is_stattrak
+1,AWP,Древесная гадюка,352,BS,False
+2,MP5-SD,Гаусс,28,BS,False
+3,Паракорд-нож,Ночная полоса,13026,BS,False
+4,USP-S,Закрученный,103,WW,False
+5,M4A1-S,Синий фосфор,56732,BS,False
+6,AK-47,Снежный вихрь,1565,BS,False
+7,Desert Eagle,Золотой карп,10308,BS,False
+8,UMP-45,Первобытный саблезуб,259,BS,False
+9,M4A1-S,Шедевр,11112,BS,False
+10,M4A1-S,Кровавый тигр,624,BS,False
+11,M4A1-S,Опустошитель,1268,BS,False
+12,M4A4,Полимерный рожок,13,BS,True
+13,M4A4,龍王 (Король драконов),2167,BS,True
+14,M4A4,Облом,1156,BS,False
+15,AUG,Аристократ,54,BS,False
+16,FAMAS,Нейронная сеть,82,BS,False
+17,GLOCK-18,Синяя трещина,239,BS,False
+18,Galil AR,Сингал,162,BS,True
+19,G3SG1,Морские просторы,65,BS,False
+20,UMP-45,Арктический волк,67,BS,True
+21,SSG 08,Zeno,62,BS,False
+22,USP-S,Извилины,274,BS,False
+23,SG 553,Темнокрыл,94,BS,True
+24,MP9,Пищевая цепь,214,BS,False
+25,AWP,ЛАПКИ,585,BS,True
+26,P250,Прощальный оскал,309,BS,False
+27,AWP,Гадюка,32,BS,False
+28,XM1014,Времена года,159,BS,False
+29,Glock-18,Жертвенность,53,BS,True
+30,MP9,Рубиновый ядовитый дротик,156,BS,False
+31,Dual Berettas,Духовики,11,BS,False
+32,Five-SeveN,Разъярённая толпа,410,BS,False
+33,MAC-10,Дискотехника,230,BS,False
+34,USP-S,Проводник,64,BS,False
+35,MAG-7,Зов монстра,28,BS,False
+36,AWP,Азимов,7960,BS,False
+37,M4A1-S,Сайрекс,2625,BS,False
+38,AK-47,Фиолетовое барокко,706,BS,False

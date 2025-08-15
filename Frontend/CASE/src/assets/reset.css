@@ -1,0 +1,125 @@
+/* src/assets/reset.css */
+
+/* 1. Box sizing border-box для всех элементов и псевдоэлементов */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Убираем отступы и поля по умолчанию */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  main, menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* 3. HTML5 display-role reset для старых браузеров */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, main, menu, nav, section {
+    display: block;
+  }
+  
+  /* 4. Убираем списки */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* 5. Убираем кавычки у цитат */
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote::before, blockquote::after,
+  q::before, q::after {
+    content: '';
+    content: none;
+  }
+  
+  /* 6. Убираем оформление у ссылок */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* 7. Убираем outline у кнопок и инпутов при фокусе */
+  button, input, textarea, select {
+    outline: none;
+    font: inherit;
+    background: none;
+    border: none;
+  }
+  
+  /* 8. Убираем border-collapse у таблиц */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* 9. Наследуем шрифт для форм */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 10. Базовые стили для body */
+  body {
+    line-height: 1;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: url('/back.jpg');
+    background-size: cover;       /* чтобы покрыть весь экран */
+    background-position: center;  /* центрирование */
+    background-repeat: no-repeat; /* без повторения */
+    background-attachment: fixed; /* чтобы фон не прокручивался вместе со страницей */
+  }
+
+  /* 11. Изображения и медиа */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 12. Убираем выделение текста для кнопок */
+  button {
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  /* 13. Убираем стрелки у number input (для Chrome) */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  /* 14. Плавный скролл */
+  html {
+    scroll-behavior: smooth;
+  }
+  html {
+    overflow-y: scroll; /* всегда показывать вертикальный скролл */
+  }
+  
+  h1 {
+    font-family: 'Poetsen One', cursive;
+    font-weight: 700;
+  }
