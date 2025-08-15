@@ -13,22 +13,22 @@
 Это пример комплексной работы над веб-приложением с акцентом на отзывчивость,
 производительность и удобство пользователя.
 
-##Технологии
+## Технологии
 - Vue 3 + Vite
 - Pinia
 - Axios
 - DevExtreme
 - Python (backend)
 
-##Запуск локально
-###frontend
+## Запуск локально
+### frontend
 ```bash
 cd Frontend/CASE
 npm install
 npm run dev
 ```
 
-###backend
+### backend
 ```bash
 cd backend/CaseNova
 pip install -r requirements.txt
